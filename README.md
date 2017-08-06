@@ -8,6 +8,7 @@ This image contains:
 * express generator
 * react create app
 * webpack
+* mern cli
 
 ## Usage
 
@@ -117,4 +118,18 @@ Help:
 
 ```bash
 docker run --rm -i [image_name] webpack -h
+```
+
+## Mern cli
+
+Version:
+
+```bash
+docker run --rm -i [image_name] mern -v
+```
+
+Help:
+
+```bash
+docker run --rm -i [image_name] mern -h
 ```
