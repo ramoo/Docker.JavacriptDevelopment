@@ -9,6 +9,7 @@ This image contains:
 * react create app
 * webpack
 * mern cli
+* mean cli
 
 ## Usage
 
@@ -132,4 +133,18 @@ Help:
 
 ```bash
 docker run --rm -i [image_name] mern -h
+```
+
+## Mean cli
+
+Version:
+
+```bash
+docker run --rm -i [image_name] mean -v
+```
+
+Help:
+
+```bash
+docker run --rm -i [image_name] mean -h
 ```
