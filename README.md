@@ -7,6 +7,7 @@ This image contains:
 * angular cli
 * express generator
 * react create app
+* webpack
 
 ## Usage
 
@@ -102,4 +103,18 @@ Help:
 
 ```bash
 docker run --rm -i [image_name] create-react-app -h
+```
+
+## Webpack
+
+Version:
+
+```bash
+docker run --rm -i [image_name] webpack -v
+```
+
+Help:
+
+```bash
+docker run --rm -i [image_name] webpack -h
 ```
