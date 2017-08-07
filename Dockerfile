@@ -12,6 +12,7 @@ RUN npm install -g @angular/cli \
     && npm install -g webpack \
     && npm install -g mern-cli \
     && npm install -g mean-cli \
+    && npm install -g typescript \
     && npm cache clean
 
 EXPOSE 3000 4200

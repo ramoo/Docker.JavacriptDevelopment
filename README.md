@@ -10,6 +10,7 @@ This image contains:
 * webpack
 * mern cli
 * mean cli
+* typescript
 
 ## Usage
 
@@ -147,4 +148,18 @@ Help:
 
 ```bash
 docker run --rm -i [image_name] mean -h
+```
+
+## Typescript
+
+Version:
+
+```bash
+docker run --rm -i [image_name] tsc -v
+```
+
+Help:
+
+```bash
+docker run --rm -i [image_name] tsc -h
 ```
